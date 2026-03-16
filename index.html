@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>@affiliatehannah — AI Tools I Recommend</title>
+  <meta name="description" content="Sharing the best AI tools I use — so you don't have to find them the hard way.">
+  <style>
+    :root {
+      --color-primary: #1e293b;
+      --color-primary-hover: #0f172a;
+      --color-bg: #ffffff;
+      --color-surface: #f8fafc;
+      --color-text: #1e293b;
+      --color-text-light: #64748b;
+      --color-border: #e2e8f0;
+      --color-link-bg: #ffffff;
+      --color-link-border: #e2e8f0;
+      --color-link-hover: #f1f5f9;
+      --avatar-border: #e2e8f0;
+      --radius: 12px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      color: var(--color-text);
+      background: var(--color-bg);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .bio-container {
+      width: 100%;
+      max-width: 480px;
+      padding: 48px 20px 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .avatar-placeholder {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      border: 3px solid var(--avatar-border);
+      background: var(--color-surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin-bottom: 16px;
+    }
+
+    .profile-name {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+      text-align: center;
+    }
+    .profile-tagline {
+      font-size: 15px;
+      color: var(--color-text-light);
+      text-align: center;
+      margin-bottom: 32px;
+      line-height: 1.4;
+      max-width: 360px;
+    }
+
+    .category-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-text-light);
+      margin-bottom: 12px;
+      margin-top: 8px;
+      width: 100%;
+      text-align: left;
+      padding-left: 4px;
+    }
+
+    .link-list {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      width: 100%;
+      padding: 14px 20px;
+      background: var(--color-link-bg);
+      border: 1px solid var(--color-link-border);
+      border-radius: var(--radius);
+      transition: background 0.15s, transform 0.1s;
+      cursor: pointer;
+    }
+    .link-item:hover {
+      background: var(--color-link-hover);
+      transform: translateY(-1px);
+    }
+    .link-item:active { transform: translateY(0); }
+    .link-icon { font-size: 20px; flex-shrink: 0; }
+    .link-label { font-size: 15px; font-weight: 500; flex-grow: 1; }
+    .link-arrow { font-size: 14px; color: var(--color-text-light); flex-shrink: 0; }
+
+    .spacer { height: 16px; }
+
+    .bio-footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--color-text-light);
+      line-height: 1.6;
+    }
+    .bio-footer a { color: #155DFC; }
+    .disclosure-text {
+      font-size: 11px;
+      color: var(--color-text-light);
+      margin-bottom: 8px;
+      max-width: 360px;
+    }
+
+    @media (max-width: 480px) {
+      .bio-container { padding: 32px 16px 24px; }
+      .link-item { padding: 14px 16px; }
+    }
+    @supports (-webkit-touch-callout: none) {
+      body { min-height: -webkit-fill-available; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bio-container">
+
+    <div class="avatar-placeholder">✨</div>
+
+    <h1 class="profile-name">@affiliatehannah</h1>
+    <p class="profile-tagline">Sharing the best AI tools I use — so you don't have to find them the hard way.</p>
+
+    <div class="category-label">Featured Tools</div>
+    <div class="link-list">
+      <a href="https://app.loki.build/?via=hannah" target="_blank" rel="noopener" class="link-item">
+        <span class="link-icon">🛠️</span>
+        <span class="link-label">Loki.Build — No-Code Builder</span>
+        <span class="link-arrow">→</span>
+      </a>
+      <a href="https://fliki.ai?via=hannah-sandburg" target="_blank" rel="noopener" class="link-item">
+        <span class="link-icon">🎬</span>
+        <span class="link-label">Fliki — AI Video & Audio</span>
+        <span class="link-arrow">→</span>
+      </a>
+      <a href="http://www.dupdub.com/?via=hannah" target="_blank" rel="noopener" class="link-item">
+        <span class="link-icon">🎙️</span>
+        <span class="link-label">DupDub — AI Voice & Video</span>
+        <span class="link-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="category-label">Connect</div>
+    <div class="link-list">
+      <a href="https://www.instagram.com/blurryface8420/" target="_blank" rel="noopener" class="link-item">
+        <span class="link-icon">📸</span>
+        <span class="link-label">Follow me on Instagram</span>
+        <span class="link-arrow">→</span>
+      </a>
+    </div>
+
+    <div class="bio-footer">
+      <p class="disclosure-text">Some links on this page are affiliate links. I may earn a commission if you purchase through them, at no extra cost to you.</p>
+      <p>Built with <a href="https://list.affitor.com">Affiliate Skills by Affitor</a></p>
+    </div>
+
+  </div>
+
+</body>
+</html>
