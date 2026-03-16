@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loki.Build vs Lovable (2026): Which AI Builder Is Right for You?</title>
+  <meta name="description" content="Loki.Build vs Lovable compared for 2026. See which AI builder wins on design, features, pricing, and what you can actually build with each.">
+  <style>
+    :root { --color-primary: #1e293b; --color-bg: #ffffff; --color-surface: #f8fafc; --color-text: #1e293b; --color-text-light: #64748b; --color-border: #e2e8f0; --radius: 12px; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--color-text); background: var(--color-bg); -webkit-font-smoothing: antialiased; }
+    a { color: #155DFC; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { max-width: 680px; margin: 0 auto; padding: 48px 20px 80px; }
+    .nav { font-size: 14px; color: var(--color-text-light); margin-bottom: 40px; }
+    .nav a { color: var(--color-text-light); }
+    .nav a:hover { color: var(--color-text); text-decoration: none; }
+    .post-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: #155DFC; margin-bottom: 12px; }
+    h1 { font-size: 30px; font-weight: 800; line-height: 1.25; margin-bottom: 16px; }
+    .disclosure { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px; padding: 12px 16px; font-size: 12px; color: var(--color-text-light); margin-bottom: 32px; line-height: 1.5; }
+    .verdict-box { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 40px; }
+    .verdict-box h3 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-text-light); margin-bottom: 14px; }
+    .verdict-box ul { padding-left: 0; list-style: none; }
+    .verdict-box li { font-size: 15px; margin-bottom: 8px; padding-left: 0; }
+    .verdict-box li strong { color: var(--color-text); }
+    h2 { font-size: 22px; font-weight: 700; margin: 40px 0 14px; padding-top: 8px; }
+    h3 { font-size: 17px; font-weight: 600; margin: 28px 0 10px; }
+    p { font-size: 16px; line-height: 1.7; margin-bottom: 16px; }
+    ul, ol { padding-left: 22px; margin-bottom: 16px; }
+    li { font-size: 16px; line-height: 1.65; margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 24px 0; overflow-x: auto; display: block; }
+    th { background: var(--color-surface); font-weight: 600; text-align: left; padding: 10px 14px; border: 1px solid var(--color-border); }
+    td { padding: 10px 14px; border: 1px solid var(--color-border); }
+    tr:nth-child(even) td { background: var(--color-surface); }
+    .product-card { border: 1px solid var(--color-border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px; }
+    .product-card h3 { margin-top: 0; }
+    .product-card .meta { display: flex; gap: 16px; font-size: 13px; color: var(--color-text-light); margin: 8px 0 12px; }
+    .cta-box { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius); padding: 20px 24px; margin: 32px 0; text-align: center; }
+    .cta-box p { margin-bottom: 12px; font-weight: 500; }
+    .cta-btn { display: inline-block; background: #155DFC; color: #fff; padding: 12px 28px; border-radius: 8px; font-weight: 600; font-size: 15px; }
+    .cta-btn:hover { background: #1249cc; text-decoration: none; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 16px 0 24px; }
+    .pros, .cons { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 16px 20px; }
+    .pros h4 { color: #16a34a; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+    .cons h4 { color: #dc2626; font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+    .pros li, .cons li { font-size: 14px; }
+    .winner-badge { display: inline-block; background: #dcfce7; color: #16a34a; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; padding: 3px 10px; border-radius: 100px; margin-left: 8px; vertical-align: middle; }
+    .faq-item { border: 1px solid var(--color-border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; }
+    .faq-q { padding: 16px 20px; font-weight: 600; font-size: 15px; background: var(--color-surface); }
+    .faq-a { padding: 14px 20px; font-size: 14px; line-height: 1.6; color: var(--color-text-light); }
+    .footer { margin-top: 64px; padding-top: 24px; border-top: 1px solid var(--color-border); font-size: 12px; color: var(--color-text-light); text-align: center; line-height: 1.6; }
+    @media (max-width: 540px) { h1 { font-size: 24px; } .pros-cons { grid-template-columns: 1fr; } .container { padding: 32px 16px 64px; } .product-card .meta { flex-direction: column; gap: 4px; } }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <nav class="nav"><a href="/blog/">← Blog</a> &nbsp;·&nbsp; <a href="/">@affiliatehannah</a></nav>
+
+  <div class="post-tag">Comparison</div>
+  <h1>Loki.Build vs Lovable (2026): Which AI Builder Is Right for You?</h1>
+
+  <div class="disclosure">
+    <strong>Disclosure:</strong> This page contains affiliate links. If you purchase through these links, I may earn a commission at no extra cost to you. I only recommend products I've personally evaluated.
+  </div>
+
+  <p>Both Loki.Build and Lovable promise to let you build without code using AI. Both are well-designed. Both have real users shipping real products with them.</p>
+  <p>But they are built for completely different things — and picking the wrong one will waste your time and budget. By the end of this post, you'll know exactly which one to use for your project.</p>
+
+  <div class="verdict-box">
+    <h3>Quick Verdict</h3>
+    <ul>
+      <li>🏆 <strong>Best for landing pages and marketing sites:</strong> Loki.Build — faster, better design output, simpler workflow</li>
+      <li>🏆 <strong>Best for full-stack web apps:</strong> Lovable — databases, auth, payments, real app functionality</li>
+      <li>💰 <strong>Best for budget:</strong> Loki.Build — generous free plan, no credits system</li>
+      <li>⚠️ <strong>Skip both if:</strong> You need a complex CMS blog or a mobile app</li>
+    </ul>
+  </div>
+
+  <h2>What Is Loki.Build?</h2>
+  <div class="product-card">
+    <h3>Loki.Build</h3>
+    <div class="meta">
+      <span>🛠️ Landing page builder</span>
+      <span>💰 50% affiliate commission</span>
+      <span>🍪 60-day cookie</span>
+    </div>
+    <p>Loki.Build is an AI-native landing page and website builder. Give it a prompt or reference URL, and it generates a studio-grade marketing page in seconds — hero, features, pricing, social proof, CTAs — all designed and copywritten. The output quality is the key differentiator: it looks like a design agency made it.</p>
+    <p><strong>Best for:</strong> Landing pages, marketing sites, SaaS product pages, agency client work</p>
+    <a href="https://app.loki.build/sign-up?via=hannah" target="_blank" rel="noopener nofollow sponsored">Try Loki.Build free →</a>
+  </div>
+
+  <h2>What Is Lovable?</h2>
+  <div class="product-card">
+    <h3>Lovable</h3>
+    <div class="meta">
+      <span>⚙️ Full-stack app builder</span>
+      <span>💰 Starter $20/mo · Launch $50/mo</span>
+      <span>🆓 5 daily free credits</span>
+    </div>
+    <p>Lovable is an AI full-stack app builder. You describe the app you want — a SaaS tool, a marketplace, a portal — and Lovable generates the frontend, connects a Supabase database, sets up user authentication, and wires up Stripe payments. It's for building <em>applications</em>, not pages.</p>
+    <p><strong>Best for:</strong> Web apps, MVPs, SaaS tools, internal tools, startup prototypes</p>
+    <a href="https://lovable.dev" target="_blank" rel="noopener">Visit Lovable →</a>
+  </div>
+
+  <h2>Feature Comparison</h2>
+  <table>
+    <thead>
+      <tr><th>Feature</th><th>Loki.Build</th><th>Lovable</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>AI generation</td><td>✅ Landing pages</td><td>✅ Full-stack apps</td></tr>
+      <tr><td>Visual editor</td><td>✅ Full editor</td><td>✅ Visual + code</td></tr>
+      <tr><td>Design quality</td><td>⭐ Studio-grade</td><td>Good</td></tr>
+      <tr><td>Database (user data)</td><td>❌ No</td><td>✅ Supabase</td></tr>
+      <tr><td>User authentication</td><td>❌ No</td><td>✅ Built-in</td></tr>
+      <tr><td>Payment processing</td><td>❌ No</td><td>✅ Stripe</td></tr>
+      <tr><td>Custom domain</td><td>✅ Pro plan</td><td>✅ Yes</td></tr>
+      <tr><td>Built-in hosting</td><td>✅ Yes</td><td>✅ Yes</td></tr>
+      <tr><td>Code export / GitHub sync</td><td>❌ No</td><td>✅ Yes</td></tr>
+      <tr><td>Free plan</td><td>✅ Unlimited projects</td><td>⚠️ 30 credits/month</td></tr>
+      <tr><td>Learning curve</td><td>Low</td><td>Medium</td></tr>
+    </tbody>
+  </table>
+
+  <h2>What You Can Actually Build</h2>
+
+  <h3>Loki.Build <span class="winner-badge">Winner for marketing</span></h3>
+  <p>Loki is purpose-built for marketing. Use it for SaaS landing pages, product launch pages, lead capture pages, agency client websites, and multi-page marketing sites. The AI output is genuinely impressive — polished enough that visitors won't know it was AI-generated.</p>
+  <p><strong>Cannot build:</strong> Anything requiring user accounts, stored data, payments, or custom logic.</p>
+
+  <h3>Lovable <span class="winner-badge">Winner for apps</span></h3>
+  <p>Lovable builds real applications. In a single session you can scaffold a SaaS tool with user accounts and subscription billing, a client portal with login and file uploads, a marketplace MVP, or a job board. Lovable 2.0 (February 2026) added real-time multi-user collaboration, Dev Mode for direct code editing, and Visual Edits for CSS-level control. You own the code — GitHub sync means you're never locked in.</p>
+
+  <h2>Design Quality</h2>
+  <p>Loki.Build has a clear edge for marketing design. The layouts, typography, spacing, and visual hierarchy are studio-level. You could show a Loki page to a designer and they won't immediately know it was AI-generated.</p>
+  <p>Lovable's design output is functional and clean but optimized for usability in applications — forms, tables, dashboards — not the visual persuasion of a landing page.</p>
+
+  <h2>Pricing</h2>
+
+  <h3>Loki.Build</h3>
+  <table>
+    <thead><tr><th>Plan</th><th>Price</th><th>What You Get</th></tr></thead>
+    <tbody>
+      <tr><td>Free</td><td>$0</td><td>AI generation, visual editor, unlimited projects, Loki-hosted URL</td></tr>
+      <tr><td>Pro</td><td>See <a href="https://loki.build/pricing" target="_blank" rel="noopener">loki.build/pricing</a></td><td>Custom domains, unlimited sites, more AI credits</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Lovable</h3>
+  <table>
+    <thead><tr><th>Plan</th><th>Price</th><th>Credits</th></tr></thead>
+    <tbody>
+      <tr><td>Free</td><td>$0</td><td>5 daily credits (30/month)</td></tr>
+      <tr><td>Starter</td><td>$20/mo</td><td>100 credits/month</td></tr>
+      <tr><td>Launch</td><td>$50/mo</td><td>300 credits/month</td></tr>
+    </tbody>
+  </table>
+  <p>Note: Lovable credits are consumed by every AI action including debugging. A stubborn bug can eat 60–150 credits before it's resolved.</p>
+
+  <h2>Pros and Cons</h2>
+
+  <h3>Loki.Build</h3>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>✅ Pros</h4>
+      <ul>
+        <li>Fastest path to a live marketing page</li>
+        <li>Output quality is genuinely impressive</li>
+        <li>Free plan with no credit limits</li>
+        <li>Brand kit for multi-page consistency</li>
+        <li>Built-in SEO and hosting</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>❌ Cons</h4>
+      <ul>
+        <li>Landing pages only</li>
+        <li>No complex animations or custom JS</li>
+        <li>No code export</li>
+        <li>Newer product, less community</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Lovable</h3>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>✅ Pros</h4>
+      <ul>
+        <li>Builds real full-stack applications</li>
+        <li>GitHub sync — you own the code</li>
+        <li>DB, auth, and payments built in</li>
+        <li>Multi-user collaboration</li>
+        <li>Active community</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>❌ Cons</h4>
+      <ul>
+        <li>Credits make costs unpredictable</li>
+        <li>Debugging eats credits fast</li>
+        <li>Design less polished for marketing pages</li>
+        <li>Steeper learning curve</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Who Should Choose Each</h2>
+  <h3>Choose Loki.Build if you...</h3>
+  <ul>
+    <li>Need a landing page or marketing site live fast</li>
+    <li>Don't have design or development skills</li>
+    <li>Are running paid ads and need a high-converting destination page</li>
+    <li>Are an agency building client marketing sites</li>
+    <li>Want beautiful output that doesn't look AI-generated</li>
+  </ul>
+  <h3>Choose Lovable if you...</h3>
+  <ul>
+    <li>Are building a web application with real users</li>
+    <li>Need user authentication, a database, or payment processing</li>
+    <li>Want to build an MVP without hiring developers</li>
+    <li>Need to own and export your code</li>
+  </ul>
+
+  <h2>The Verdict</h2>
+  <p>These tools don't really compete — they serve different jobs.</p>
+  <p>If you need a landing page, Loki.Build is the faster, better-looking option with a more accessible free plan. If you need a web application, Lovable is one of the best tools available for building without a dev team.</p>
+  <p>If you're launching a SaaS product, the ideal setup is actually <em>both</em>: Loki.Build for your marketing site and Lovable for your actual application. They complement each other well.</p>
+
+  <div class="cta-box">
+    <p>Need a landing page? Start free on Loki.Build.</p>
+    <a class="cta-btn" href="https://app.loki.build/sign-up?via=hannah" target="_blank" rel="noopener nofollow sponsored">Get Loki.Build Free →</a>
+  </div>
+
+  <h2>FAQ</h2>
+  <div class="faq-item">
+    <div class="faq-q">Is Loki.Build better than Lovable?</div>
+    <div class="faq-a">It depends on what you're building. Loki.Build is better for landing pages and marketing sites. Lovable is better for full-stack web applications. They're not direct competitors.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Can Lovable build landing pages?</div>
+    <div class="faq-a">Yes, but design quality for marketing pages is stronger in Loki.Build. Lovable is optimized for application UI, not conversion-focused landing pages.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Can Loki.Build build a web app?</div>
+    <div class="faq-a">No. Loki.Build is a landing page and marketing site builder. It doesn't support databases, user accounts, or payment processing.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Which is cheaper?</div>
+    <div class="faq-a">Loki.Build has a more accessible free plan with no credit limits for basic use. Lovable's free plan caps at 30 credits/month, which goes fast when debugging.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Do either export code?</div>
+    <div class="faq-a">Lovable syncs to GitHub so you own your code. Loki.Build does not currently offer code export — pages are hosted on their platform.</div>
+  </div>
+
+  <div class="footer">
+    <p>Affiliate disclosure: Some links on this page are affiliate links. I may earn a commission if you purchase through them, at no extra cost to you.</p>
+    <p style="margin-top:8px;"><em>Sources: <a href="https://www.nocode.mba/articles/lovable-ai-app-builder" target="_blank" rel="noopener">nocode.mba Lovable Review</a> · <a href="https://lovable.dev/pricing" target="_blank" rel="noopener">Lovable Pricing</a> · <a href="https://www.producthunt.com/products/loki-build-2" target="_blank" rel="noopener">Loki.Build on Product Hunt</a></em></p>
+    <p style="margin-top:8px;">Built with <a href="https://list.affitor.com">Affiliate Skills by Affitor</a></p>
+  </div>
+
+</div>
+</body>
+</html>
